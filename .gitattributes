@@ -1,0 +1,15 @@
+# Chỉ định ngôn ngữ chính
+*.php linguist-language=PHP
+*.md linguist-documentation
+*.txt linguist-documentation
+
+# Loại trừ file khỏi thống kê ngôn ngữ
+README.md linguist-documentation
+LICENSE linguist-documentation
+.gitignore linguist-documentation
+.gitattributes linguist-documentation
+
+# Chỉ định file chính
+index.php linguist-language=PHP
+api.php linguist-language=PHP
+download.php linguist-language=PHP 
